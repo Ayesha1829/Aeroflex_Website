@@ -1,6 +1,6 @@
-# 🏀 Nike Shoe Brand Website
+# 🏀 Aeroflex Shoe Brand Website
 
-A stylish and modern **Nike shoe brand website** designed to showcase the latest sneaker collections with an engaging and user-friendly interface. This project focuses on delivering a smooth, responsive, and visually appealing experience.
+A stylish and modern **Aeroflex shoe brand website** designed to showcase the latest sneaker collections with an engaging and user-friendly interface. This project focuses on delivering a smooth, responsive, and visually appealing experience.
 
 ## 📌 Features
 - **🏆 Sleek Landing Page** – Eye-catching visuals & animations
@@ -19,8 +19,8 @@ A stylish and modern **Nike shoe brand website** designed to showcase the latest
 
 ### 📥 Clone the Repository
 ```sh
-git clone https://github.com/your-username/nike-shoe-website.git
-cd nike-shoe-website
+git clone https://github.com/your-username/Aeroflex-shoe-website.git
+cd Aeroflex-shoe-website
 ```
 
 ### 🏃‍♂️ Run the Project

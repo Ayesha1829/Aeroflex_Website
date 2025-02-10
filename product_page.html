@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Max 90 - Product Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #1a1a1a;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            background-color: rgba(26, 26, 26, 0.9);
+        }
+
+        .logo {
+            width: 40px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 40px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+
+        .main-content {
+            display: flex;
+            min-height: 100vh;
+            padding: 100px 40px;
+        }
+
+        .side-text {
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            padding: 20px;
+            font-size: 14px;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .product-info {
+            flex: 1;
+            padding: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .product-title {
+            font-size: 72px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .product-subtitle {
+            font-size: 24px;
+            color: #888;
+            margin-bottom: 20px;
+        }
+
+        .price {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            color: #888;
+            max-width: 400px;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .buy-button {
+            background-color: #00c8ff;
+            color: black;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            font-weight: bold;
+            cursor: pointer;
+            width: fit-content;
+        }
+
+        .product-image {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .product-image img {
+            max-width: 700px;
+            transform: rotate(-2 deg);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="assets\images\nike-removebg-preview.png" alt="Nike Logo" class="logo">
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Collection</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <div class="side-text">Style takes over</div>
+        <div class="product-info">
+            <h1 class="product-title">AIR MAX</h1>
+            <h2 class="product-subtitle">NIKE AIR MAX 90</h2>
+            <div class="price">$100</div>
+            <p class="description">Lace up and feel the legacy in a champion running shoe that was first released in the 90s. Worn by presidents and revolutionized through solids and celebrated through rare colorways</p>
+            <button class="buy-button">BUY NOW</button>
+        </div>
+        <div class="product-image">
+            <img src="assets\images\shoes-removebg-preview.png" alt="Nike Air Max 90">
+        </div>
+    </div>
+</body>
+</html>

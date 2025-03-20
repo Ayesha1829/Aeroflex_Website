@@ -3,6 +3,7 @@
     --secondary: #F5E6CA;
     --text-dark: #2C1810;
     --text-light: #F5E6CA;
+    --background-hover: #000;
 }
 
 * {
@@ -95,7 +96,7 @@ body {
 }
 
 .btn-primary:hover {
-    background-color: var(--secondary);
+    background-color: var(--background-hover);
     transform: translateY(-2px);
 }
 
